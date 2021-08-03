@@ -1,0 +1,7 @@
+<h1> home pages</h1>
+{% csrf_token%}
+<ul>
+    {% for post in object_list %}
+    <li>{{post.name}} {{post.age}} {{post.address}} {{post.phone}} {{post.note}} {{post.date}}</li>
+    {% endfor %}
+</ul>

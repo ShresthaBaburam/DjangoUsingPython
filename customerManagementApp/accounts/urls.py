@@ -13,7 +13,7 @@ urlpatterns = [
     path('logout/',views.logoutPage, name="logout"),
     path('user/',views.userPage, name="user"),
 
-
+    path('account/',views.accountSettings, name="account"),
 
     
 ]
